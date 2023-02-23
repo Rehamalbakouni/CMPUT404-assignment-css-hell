@@ -1,0 +1,108 @@
+/* Applied to the 3 gutenberg projects*/
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    background-image: url("./images/old background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+
+    
+}
+
+p:first-letter {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    text-indent: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: rgb(45, 45, 45);
+    padding: 0.25em;
+  }
+
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 2em;
+}
+
+h1 {
+	font-size: 225%;
+	word-spacing: 0.2em;
+
+}
+
+h2 {
+	font-size: 175%;
+}
+
+h3 {
+	font-size: 110%;
+    font-style: italic;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+
+
+
+
+
+img {
+    border: 1em;
+    border-color: #615326;
+    border-style: double;
+    filter: sepia(50%);
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.figcenter {
+    margin: 2em auto 2em auto;
+    text-align: center;
+    page-break-inside: avoid;
+}
+
+figcaption {
+    opacity: 0.6;
+    font-family: 'Roboto Slab', serif;
+}
+
+hr {
+	width: 70%;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em
+}
+
+
+
+.transnote {
+    border: 0.3em double #615326;
+    font-family: sans-serif, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8em;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    border-collapse: collapse;
+}
