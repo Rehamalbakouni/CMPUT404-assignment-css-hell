@@ -1,0 +1,82 @@
+
+body {
+    background-image: url("./images/ugly background.jpg");
+    background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.navmenu {
+    text-align: center;
+    padding: 0;
+}
+a{
+
+}
+
+h1 {
+    color: #00805a;
+    font-family: Comic Sans MS;
+    font-size: 72px;
+    text-align: center;
+    text-shadow: 2px 2px #FFD700;
+}
+
+h2 {
+    color: #d8ebeb;
+    font-family: Comic Sans MS;
+    font-size: 72px;
+    text-align: center;
+    text-shadow: 2px 2px #FFD700;
+}
+
+p {
+    color: #e06685;
+    font-family: Comic Sans MS;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px 2px #e6e4da;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+ul {
+    color: #e06685;
+    font-family: Comic Sans MS;
+    font-size: 36px;
+    text-shadow: 2px 2px #e6e4da;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: #d8ebeb;
+    text-shadow: #FFD700;
+    display: inline;
+    padding: 1em;
+    background-color: rgb(105, 87, 126);
+    margin-right: 3em;
+    border-width: 0.2em;
+    box-shadow: rgb(165, 165, 7);
+}
+
+a:hover {
+    color: #FF8C00;
+    text-shadow: none;
+}
+
+
+img {
+
+    border: #000000 5px solid;
+    border-radius: 50px;
+  }
+
+
